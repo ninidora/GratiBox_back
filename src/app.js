@@ -1,6 +1,7 @@
 import express from 'express';
 import cors from 'cors';
 
+// import auth from './middlewares/auth.js';
 import * as userController from './controllers/userController.js';
 
 const app = express();
